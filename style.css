@@ -1,0 +1,32 @@
+.continer{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+
+h1{
+border-bottom: 2px solid blue;
+width: 300px;
+border-right: 2px solid blue;
+text-align: center;
+box-shadow: 5px 5px 5px #888888;
+
+}
+img{
+
+	width: 400px;
+	height: 350px;
+	margin: 10px;
+	transition: all 1s;
+
+}
+
+img:hover
+{
+	transform: scale(1.1);
+
+
+
+}
